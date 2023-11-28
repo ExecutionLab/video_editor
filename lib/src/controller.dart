@@ -56,7 +56,7 @@ class VideoEditorController extends ChangeNotifier {
           // https://github.com/flutter/flutter/issues/40429#issuecomment-549746165
           file.path,
         )),
-        _video.setVolume(0.0);
+        // _video.setVolume(0.0);
         trimStyle = trimStyle ?? TrimSliderStyle(),
         assert(maxDuration > minDuration,
             'The maximum duration must be bigger than the minimum duration');
